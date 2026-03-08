@@ -1,0 +1,74 @@
+.navbar {
+    height: 70px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-sm);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+.nav-brand:hover {
+    text-decoration: none;
+    color: var(--text-main);
+}
+
+.nav-icon {
+    color: var(--primary);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-xl);
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-sm);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.user-name {
+    font-weight: 500;
+    color: var(--text-main);
+}
+
+.user-role {
+    font-size: 0.75rem;
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--br-base);
+}
+
+.nav-logout {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-sm);
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: var(--sp-sm);
+    border-radius: var(--br-base);
+    transition: var(--transition);
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.nav-logout:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--danger);
+    transform: translateY(-1px);
+}

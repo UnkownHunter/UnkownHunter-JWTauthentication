@@ -1,0 +1,16 @@
+# Node / Frontend
+node_modules/
+dist/
+.env.local
+.DS_Store
+
+# Python / Backend
+frontend-app/node_modules/
+secureApp/.venv/
+secureApp/__pycache__/
+secureApp/app.db
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
